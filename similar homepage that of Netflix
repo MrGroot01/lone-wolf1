@@ -1,89 +1,24 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netflix-like Homepage</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <!-- Navbar -->
-    <nav>
-      <div class="container">
-        <h1>Netflix</h1>
-        <!-- Add navigation links or menu here -->
-      </div>
-    </nav>
-    <!-- Hero Section -->
-    <div class="hero">
-      <div class="container">
-        <h2>Welcome to Netflix</h2>
-        <p>Watch your favorite movies, TV shows, and more.</p>
-        <!-- Add CTA buttons or search bar here -->
-        <!-- ... previous HTML code remains unchanged ... -->
-
-<div class="hero">
-  <div class="container">
-    <h2>Welcome to Netflix</h2>
-    <p>Watch your favorite movies, TV shows, and more.</p>
-    <div class="cta">
-      <input type="text" placeholder="Search...">
-      <button class="btn">Search</button>
-      <button class="btn">Sign In</button>
-    </div>
-  </div>
-</div>
-
-<!-- ... rest of the HTML code remains unchanged ... -->
-
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <main>
-    <section class="movies">
-      <div class="container">
-        <h2>Popular Movies</h2>
-        <div class="movie">
-          <img src="movie1.jpg" alt="Movie 1">
-          <h3>Movie Title 1</h3>
-          <p>Description of Movie 1...</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Netflix India - Watch TV Show Online, Watch Movies Online</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar">
+                <div class="left">
+                    <img src="netflix.jpg" alt="">
+                </div>
+                <div class="right">
+                    <select name="language" id="language">
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </div>
+            </nav>
         </div>
-        <div class="movie">
-          <img src="movie2.jpg" alt="Movie 2">
-          <h3>Movie Title 2</h3>
-          <p>Description of Movie 2...</p>
-        </div>
-        <!-- Add more movie elements -->
-      </div>
-    </section>
-
-    <section class="tv-shows">
-      <div class="container">
-        <h2>Popular TV Shows</h2>
-        <div class="tv-show">
-          <img src="show1.jpg" alt="TV Show 1">
-          <h3>TV Show Title 1</h3>
-          <p>Description of TV Show 1...</p>
-        </div>
-        <div class="tv-show">
-          <img src="show2.jpg" alt="TV Show 2">
-          <h3>TV Show Title 2</h3>
-          <p>Description of TV Show 2...</p>
-        </div>
-        <!-- Add more TV show elements -->
-      </div>
-    </section>
-    <!-- Add more sections for different categories or content -->
-  </main>
-  </main>
- 
-  <footer>
-    <div class="container">
-      <p>&copy; 2023 Netflix</p>
-    </div>
-  </footer>
-</body>
+    </body>
 </html>
